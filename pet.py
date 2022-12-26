@@ -30,7 +30,6 @@ def work(cycle,frames,event_number,first_num,last_num):
   cycle+=1
  else:
   cycle = 0
-  event_number = random.randrange(first_num,last_num+1,1)
  return cycle,event_number
 
 win.config(highlightbackground='white')
