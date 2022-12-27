@@ -23,3 +23,4 @@ win.geometry('100x100+'+"1400"+'+925')
 label.configure(image=frame)
 
 win.mainloop()
+
