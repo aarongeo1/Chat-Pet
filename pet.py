@@ -45,9 +45,9 @@ def change(cycle,check):
     if check == 1:
         frame = idle[cycle]
         cycle = run(cycle,idle)
-    win.geometry('100x100+'+"1400"+'+{}'.format(bottom - (y-bottom) - 50))
+    win.geometry('100x100+'+"1000"+'+{}'.format(bottom - (y-bottom) - 50))
     label.configure(image=frame)
-    win.after(100,change,cycle,check)
+    win.after(75,change,cycle,check)
 
 
 
