@@ -20,20 +20,21 @@ x,y = windll.user32.GetSystemMetrics(0), windll.user32.GetSystemMetrics(1)
 
 win = tkinter.Tk()
 
+# importing the idle gif
 idle = [tkinter.PhotoImage(file = r"C:\Users\Aaron Geo Binoy\Virtual-Pet\src\assets\Pochita_Idle_Animated_1.gif",format = 'gif -index %i' %(i)) for i in range(31)]
-
 
 cycle = 0
 check = 1 # 1 == idle
 
-
+# making the background transparent
 win.config(highlightbackground='white')
 label = tkinter.Label(win,bd=0,bg='white')
 win.overrideredirect(True)
 win.wm_attributes('-transparentcolor','white')
+
 label.pack()
 
-
+# to iterate among the index of the array of frames
 def run(cycle,array):
     if cycle < len(array)-1:
         cycle += 1
@@ -41,6 +42,7 @@ def run(cycle,array):
         cycle = 0
     return cycle
 
+# function to change frames
 def change(cycle,check):
     if check == 1:
         frame = idle[cycle]
@@ -49,12 +51,13 @@ def change(cycle,check):
     label.configure(image=frame)
     win.after(75,change,cycle,check)
 
-
-
-
+# to start the loop 
 win.after(1,change,cycle,check)
+
+# to render the pet above all windows
 win.lift()
 win.attributes('-topmost',True)
 win.after_idle(win.attributes,'-topmost',True)
+
 win.mainloop()
 
