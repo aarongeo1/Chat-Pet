@@ -6,6 +6,6 @@ Created using Python and its libraries which are Tensorflow,Tkinter, Numpy, Scik
 
 ## Applications
 
-A cute pet that keeps you compnay as you carry on with your day to day tasks and can have a conversation with you on a basic level whenever the user feels bored
+A cute pet that keeps you company as you carry on with your day to day tasks and can have a conversation with you on a basic level whenever the user feels bored
 
 
