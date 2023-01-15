@@ -73,8 +73,6 @@ def change(cycle,check,time):
     #win.geometry('100x100+' + "1000" + '+{}'.format(bottom - (y - bottom) - 50))
     # win.geometry('100x100+'+str(x)+'+1050')
     # label.configure(image=frame)
-    
-
 
 # to start the loop
 check = random.randint(0,1)
