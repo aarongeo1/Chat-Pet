@@ -1,4 +1,4 @@
-# Chat-Pet ( IN PROGRESS ....)
+# Chat-Pet ( IN PROGRESS .... )
 
 ## A virtual desktop pet with a chatbot
 
