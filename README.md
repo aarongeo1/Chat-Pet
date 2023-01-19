@@ -10,6 +10,6 @@ A cute pet that keeps you company as you carry on with your day to day tasks and
 
 # Upcoming Releases
 
-The training model code and datasets will be uploaded in a few days as some minor changes need to be fixed before proper implementation
+The training model code and datasets also more assets will be uploaded in a few days as some minor changes need to be fixed before proper implementation
 
 
