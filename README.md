@@ -2,7 +2,7 @@
 
 ## A virtual desktop pet with a chatbot
 
-Created using Python and its libraries which are 
+#### Created using Python and its libraries which are 
 * Tensorflow
 * Tkinter
 * Numpy
