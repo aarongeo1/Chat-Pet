@@ -19,7 +19,7 @@ Its a pet that keeps you company as you carry on with your day to day tasks and 
 * The chatbot model has been intially trained with a really small dataset due to hardware capacity and lack of good dataset for conversations.
 
 # Upcoming Releases
-* The model can now converse but it will be able to answer mental health related questions as a basic form of a therapist in the upcoming dataset which is now in creation.
+* The model can now converse but it will soon be able to answer mental health related questions as a basic form of a therapist in the upcoming dataset which is now in creation.
 * ***The basic training model code and datasets also more assets will be uploaded soon as some minor changes need to be fixed before proper implementation***
 
 
